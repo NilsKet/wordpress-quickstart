@@ -21,7 +21,7 @@
         {
             "name": "QUICKSTART_REPOSITORY_URL",
             "description": "The URL of the quickstart Git repository.",
-            "value": "https://github.com/openshift-evangelists/wordpress-quickstart",
+            "value": "https://github.com/NilsKet/wordpress-quickstart",
             "required": true
         },
         {
@@ -45,13 +45,13 @@
         {
             "name": "WORDPRESS_VOLUME_TYPE",
             "description": "Type of the persistent volume for Wordpress.",
-            "value": "ReadWriteOnce",
+            "value": "ReadWriteMany",
             "required": true
         },
         {
             "name": "WORDPRESS_DEPLOYMENT_STRATEGY",
             "description": "Type of the deployment strategy for Wordpress.",
-            "value": "Recreate",
+            "value": "Rolling",
             "required": true
         },
         {
